@@ -1,0 +1,189 @@
+/**
+ * Base and global styles
+ */
+
+
+/* FONT DECLARATIONS */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Titillium+Web');
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+}
+
+/**
+ * GLOBAL CLASSES
+ */
+
+/* title for sections and secondary pages */
+.section-title {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.section-title:after {
+	display: block;
+	background-color: #999;
+	content: '';
+	margin-top: 5px;
+	width: 40px;
+	height: 2px;
+}
+
+.section-breaker {
+	background: #cecece;
+	margin: 0 auto 60px;
+	width: 80%;
+	height: 1px;
+}
+/**
+ * Projects section styles
+ */
+
+.article {
+	margin-bottom: 60px;
+}
+
+.article-title {
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+.article-img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.article-text {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1em;
+	text-align: justify;
+}
+/**
+ * Banner (full-width image)
+ */
+
+.banner {
+	background: #000;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.banner-img {
+	opacity: 0.8;
+	width: 100vw;
+}
+
+.banner-caption {
+	background-color: rgba(255, 255, 255, 0.7);
+	font-size: 2em;
+	color: #000;
+	padding: 10px;
+	position: absolute;
+	bottom: 70px;
+	right: 0;
+}
+
+@media all and (max-width: 768px){
+
+	.banner-caption {
+		font-size: 1.6em;
+	}
+
+}
+/**
+ * Footer styles
+ */
+
+.down {
+	background-color: #333;
+	color: #fff;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.down-social {
+	padding: 0;
+}
+
+.down-social-item {
+	color: #fff;
+	display: inline-block;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+/* margin between social items, do not apply on the first icon */
+.down-social-item:not(:first-of-type){
+	margin-left: 10px;
+}
+
+/* overwrite of the text-decoration during mouseover or focus */
+.down-social-item a:hover {
+	text-decoration: none;
+}
+/**
+ * Projects section styles
+ */
+
+.project {
+	margin-bottom: 60px;
+}
+
+.project-title {
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+.project-img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.project-img:hover {
+	opacity: 0.7;
+}
+
+.project-text {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2em;
+}
+/**
+ * Header styles
+ */
+
+.top {
+	background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 60%);
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 20px;
+	opacity: 0.8;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	transition: opacity .2s;
+}
+
+.top:hover {
+	opacity: 1;
+}
+
+.top .row {
+	display: flex;
+	align-items: center;
+}
+
+.top-main-title {
+	margin-bottom: 0;
+}
+
+.top-logo {
+	display: inline-block;
+}

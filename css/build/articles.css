@@ -1,0 +1,25 @@
+/**
+ * Projects section styles
+ */
+
+.article {
+	margin-bottom: 60px;
+}
+
+.article-title {
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+.article-img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.article-text {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1em;
+	text-align: justify;
+}

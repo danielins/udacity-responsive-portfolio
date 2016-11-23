@@ -1,0 +1,32 @@
+/**
+ * Footer styles
+ */
+
+.down {
+	background-color: #333;
+	color: #fff;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.down-social {
+	padding: 0;
+}
+
+.down-social-item {
+	color: #fff;
+	display: inline-block;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+/* margin between social items, do not apply on the first icon */
+.down-social-item:not(:first-of-type){
+	margin-left: 10px;
+}
+
+/* overwrite of the text-decoration during mouseover or focus */
+.down-social-item a:hover {
+	text-decoration: none;
+}

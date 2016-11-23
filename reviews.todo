@@ -1,0 +1,86 @@
+ELEMENTOS OBRIGATÓRIOS:
+  ✔ No mínimo 4 imagens @done (16-11-22 14:36)
+  ✔ Texto de título (h1, h2, etc) @done (16-11-22 14:36)
+  ✔ Texto regular (parágrafo) @done (16-11-22 14:36)
+  ✔ Uma logo @done (16-11-22 14:36)
+
+HTML SEMÂNTICO:
+  ✔ Tags semânticas de HTML5 como <header>, <footer> @done (16-11-22 14:36)
+  ☐ Nenhuma tag <div> ou <section> sem classe ou id
+
+DESIGN CUSTOMIZADO:
+  ☐ Customizar imagens e texto
+  ✔ Customizar posicionamento de elementos na página (grid layout) @done (16-11-23 11:44)
+  ☐ Customizar CSS aplicados pelo menos em parágrafos e titulos
+
+GRID LAYOUT:
+  ✔ A página utiliza grid que fazem uso de flexbox ou framework como Boostrap @done (16-11-23 11:44)
+    ✔ Se estiver usando Bootstrap, as linhas e colunas devem estar contidas em um .container @done (16-11-23 11:44)
+
+COMPATIBILIDADE ENTRE DISPOSITIVOS:
+  ☐ Todo conteúdo é responsivo e visivel em todos tamanhos de tela
+    ☐ Desktop
+    ☐ Google Nexus 5
+    ☐ Apple iPad
+
+FORNEÇA TODO CONTEÚDO:
+  ☐ Todo conteúdo é renderizado em todos os disponíveis
+  ☐ Nenhum conteúdo é ocultado
+
+TAG META VIEWPORT:
+  ✔ <meta name="viewport"> na head @done (16-11-22 14:47)
+
+IMAGENS RESPONSIVAS:
+  ☐ Media queries para garantir a responsividade
+    ☐ Se estiver usando framework, usar classes fornecidas
+
+SEPARAÇÃO DE CONCEITOS:
+  ☐ Separar estrutura HTML de estilo CSS
+    ☐ Não há atributos style
+    ☐ Não há tag style
+  ✔ Arquivos são organizados em diretórios @done (16-11-22 14:46)
+    ✔ Pasta css/ @done (16-11-22 14:46)
+    ✔ Pasta img/ @done (16-11-22 14:46)
+    ✔ Pasta js/ @done (16-11-22 14:46)
+
+QUALIDADE DE CÓDIGO:
+
+  FORMATAÇÃO HTML:
+    ☐ Todo código (nomes de elementos HTML, atributos, valores de atributos) está em minusculo
+      ☐ Exceto text/CDATA
+    ☐ Não há espaços em branco ao final (ã direita) de cada linha do código (trailing whitespace)
+    ☐ Indentação consistente (usando sempre a mesma medida)
+    ☐ Código usa linha nova para cada bloco, lista ou elemento de tabela e identa cada element filho
+    ☐ Usar aspas duplas nos atributos HTML @op
+
+  ESTILO HTML:
+    ☐ Doctype correto para HTML5
+    ☐ Código passa na validação HTML e CSS
+    ☐ Código não usa referências de entidade @op
+    ☐ Código omite atributos type para folha de estilos e scripts @op
+
+  FORMATAÇÃO CSS:
+    ☐ Não há espaços em branco ao final (ã direita) de cada linha do código (trailing whitespace)
+    ☐ Indentação consistente (usando sempre a mesma medida)
+    ☐ Código identa todo conteúdo de um bloco, que são regras dentro de regras, assim como declarações que refletem hierarquia e melhora entendimento
+    ☐ Código usa ponto e vírgula depois de toda declaração por razões de consistência e extensibilidade
+    ☐ Código sempre utiliza um espaço após o dois pontos de um nome de propriedade, mas não há espaço entre a propriedade e o dois pontos, por razões de consistência.
+    ☐ Código sempre utiliza um único espaço entre o último seletor e a chave de abertura que inicia a declaração de bloco.
+    ☐ Código sempre começa com uma nova linha para cada seletor e declaração.
+    ☐ Código sempre coloca uma linha em branco (duas quebra de linha) entre as regras.
+    ☐ Código usa aspas duplas para atributos de seletores ou valores de propriedade. Não utilize apas em valores de URI ( url() ). @op
+
+  ESTILO CSS:
+    ☐ Código utiliza nomes de classe ou ID que são relevantes ou genéricos e que sejam os menores possíveis, mas tão longo quanto necessário.
+    ☐ Código não utiliza nomes de elemento em conjunção com IDs ou classes
+    ☐ Código utiliza propriedades abreviadas (shorthand) assim que possível.
+    ☐ Código omite a unidade de medida para valores 0. @op
+    ☐ Código inclui 0s à esquerda em valores decimais para legibilidade. @op
+    ☐ Código usa notação hexadecimal de 3 caracteres sempre que possível. @op
+    ☐ Código separa palavras em nomes de classe e ID com um hífen. @op
+    ☐ Código evita detecção de user agent assim como "hacks" de CSS —tente uma abordagem diferente primeiro. @op
+
+  REGRAS GERAIS DE META:
+    ☐ Templates e documentos HTML usam a codificação UTF-8 no (BOM), i.e., <meta charset="utf-8">
+    ☐ Marque todos* itens de ação com TODO @op
+

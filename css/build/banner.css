@@ -1,0 +1,32 @@
+/**
+ * Banner (full-width image)
+ */
+
+.banner {
+	background: #000;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.banner-img {
+	opacity: 0.8;
+	width: 100vw;
+}
+
+.banner-caption {
+	background-color: rgba(255, 255, 255, 0.7);
+	font-size: 2em;
+	color: #000;
+	padding: 10px;
+	position: absolute;
+	bottom: 70px;
+	right: 0;
+}
+
+@media all and (max-width: 768px){
+
+	.banner-caption {
+		font-size: 1.6em;
+	}
+
+}

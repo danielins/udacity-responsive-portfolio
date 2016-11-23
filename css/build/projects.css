@@ -1,0 +1,28 @@
+/**
+ * Projects section styles
+ */
+
+.project {
+	margin-bottom: 60px;
+}
+
+.project-title {
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+.project-img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.project-img:hover {
+	opacity: 0.7;
+}
+
+.project-text {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2em;
+}

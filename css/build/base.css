@@ -1,0 +1,40 @@
+/**
+ * Base and global styles
+ */
+
+
+/* FONT DECLARATIONS */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Titillium+Web');
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+}
+
+/**
+ * GLOBAL CLASSES
+ */
+
+/* title for sections and secondary pages */
+.section-title {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.section-title:after {
+	display: block;
+	background-color: #999;
+	content: '';
+	margin-top: 5px;
+	width: 40px;
+	height: 2px;
+}
+
+.section-breaker {
+	background: #cecece;
+	margin: 0 auto 60px;
+	width: 80%;
+	height: 1px;
+}
