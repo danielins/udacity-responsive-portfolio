@@ -23,10 +23,31 @@
 	right: 0;
 }
 
-@media all and (max-width: 768px){
+@media all and (max-width: 768px) {
 
 	.banner-caption {
 		font-size: 1.6em;
+		bottom: 0;
+		width: 100%;
+	}
+
+}
+
+@media all and (max-width: 550px) {
+
+	.banner-caption {
+		background-color: #fff;
+		border-bottom: 1px solid #333;
+		position: static;
+		text-align: center;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+
+	.banner-caption {
+		font-size: 1.2em;
 	}
 
 }

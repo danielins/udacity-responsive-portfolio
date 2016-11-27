@@ -6,8 +6,7 @@
 	background-color: #333;
 	color: #fff;
 	margin-top: 20px;
-	padding-top: 10px;
-	padding-bottom: 50px;
+	padding: 10px 0 50px;
 }
 
 .down-social {
@@ -16,13 +15,12 @@
 
 .down-social-item {
 	color: #fff;
+	font: 1.5em/30px normal;
 	display: inline-block;
-	font-size: 1.5em;
-	line-height: 30px;
 }
 
 /* margin between social items, do not apply on the first icon */
-.down-social-item:not(:first-of-type){
+.down-social-item:not(:first-of-type) {
 	margin-left: 10px;
 }
 

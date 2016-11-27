@@ -15,6 +15,9 @@ module.exports = function(grunt) {
 		},
 
 		concat: {
+			options: {
+				separator: '\n\n',
+			},
 			dist: {
 				src: ['css/build/base.css', 'css/build/*.css'],
 				dest: 'css/main.css'

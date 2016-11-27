@@ -4,9 +4,9 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-	
+
 	<title>Udacity Portfolio</title>
-	
+
 	<link rel="stylesheet" href="css/lib/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/main.min.css"/>
 
@@ -17,13 +17,12 @@
 		
 		<figure class="banner">
 			<picture>
-				<!-- <source media="(min-width: 1024px") srcset="http://placehold.it/1366x650"> -->
-				<source media="(min-width: 1024px") srcset="http://blog.cosmotown.com/wp-content/uploads/2016/09/iStock_77392727_MEDIUM-1200x800.jpg">
-				<source media="(max-width: 550px)" srcset="http://placehold.it/500x400">
-				<img class="banner-img img-responsive" src="http://placehold.it/1000x450" srcset="http://placehold.it/2000x900 2x, http://placehold.it/1000x450" alt="Portfolio banner">
+				<source media="(min-width: 1024px)" srcset="img/banner_large_2x.jpg 2x, img/banner_large_1x.jpg">
+				<source media="(min-width: 550px)" srcset="img/banner_medium.jpg">
+				<img src="img/banner_small.jpg" class="banner-img img-responsive" alt="Portfolio banner">
 			</picture>
 			<figcaption class="banner-caption">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, saepe!
+				HTML5, CSS3 and JavaScript skills to create 100% responsive sites
 			</figcaption>
 		</figure>
 
@@ -33,16 +32,16 @@
 				<nav class="row">
 					<div class="col-sm-6">
 						<a href="/" title="Back to home">
-							<img src="http://placehold.it/50x50?text=Logo" class="top-logo" alt="Logo">
+							<img src="img/logo.png" class="top-logo" alt="Logo">
 						</a>
 					</div>
 					
 					<div class="col-sm-6 text-right">
 						<h1 class="top-main-title">
-							Project
+							Daniel Alves
 						</h1>
 						<p class="text-uppercase">
-							Front-end Development
+							Front-end Developer
 						</p>
 					</div>
 				</nav>
@@ -64,11 +63,13 @@
 							Project 1
 						</h3>
 						<picture>
-							<source media="(max-width: 765px) and (min-width: 480px)" srcset="http://placehold.it/600x400">
-							<img class="project-img img-responsive" src="http://placehold.it/300x200" alt="Project 1">
+							<source media="(max-width: 765px) and (max-height: 480px)" srcset="http://placehold.it/600x200?text=Project+1">
+							<source media="(max-width: 765px) and (min-width: 480px)" srcset="http://placehold.it/600x400?text=Project+1">
+							<img class="project-img img-responsive" src="http://placehold.it/300x200?text=Project+1" alt="Project 1">
 						</picture>
 						<p class="project-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ad.
+							<br><a href="javascript:void(0)">More info here</a>.
 						</p>
 					</div>
 					
@@ -77,11 +78,13 @@
 							Project 2
 						</h3>
 						<picture>
-							<source media="(max-width: 765px) and (min-width: 480px)" srcset="http://placehold.it/600x400">
-							<img class="project-img img-responsive" src="http://placehold.it/300x200" alt="Project 2">
+							<source media="(max-width: 765px) and (max-height: 480px)" srcset="http://placehold.it/600x200?text=Project+2">
+							<source media="(max-width: 765px) and (min-width: 480px)" srcset="http://placehold.it/600x400?text=Project+2">
+							<img class="project-img img-responsive" src="http://placehold.it/300x200?text=Project+2" alt="Project 2">
 						</picture>
 						<p class="project-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, expedita.
+							<br><a href="javascript:void(0)">More info here</a>.
 						</p>
 					</div>
 					
@@ -90,17 +93,19 @@
 							Project 3
 						</h3>
 						<picture>
-							<source media="(max-width: 765px) and (min-width: 480px)" srcset="http://placehold.it/600x400">
-							<img class="project-img img-responsive" src="http://placehold.it/300x200" alt="Project 3">
+							<source media="(max-width: 765px) and (max-height: 480px)" srcset="http://placehold.it/600x200?text=Project+3">
+							<source media="(max-width: 765px) and (min-width: 480px)" srcset="http://placehold.it/600x400?text=Project+3">
+							<img class="project-img img-responsive" src="http://placehold.it/300x200?text=Project+3" alt="Project 3">
 						</picture>
 						<p class="project-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, totam?
+							<br><a href="javascript:void(0)">More info here</a>.
 						</p>
 					</div>
 				</div>
 
 			</section>
-	
+
 			<hr class="section-breaker">
 
 			<section>
@@ -115,12 +120,12 @@
 						<h3 class="article-title">
 							Article 1
 						</h3>
-						<img src="http://placehold.it/600x200" alt="Article Image" class="article-img img-responsive">
+						<img src="http://placehold.it/600x200?text=Article+1" alt="Article Image" class="article-img img-responsive">
 						<p class="article-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni iusto atque, quis distinctio inventore, ut eos suscipit quasi consequatur, voluptatem nesciunt dignissimos quae sit fuga. Ratione officiis, unde fugiat provident inventore dolorum natus cum dicta repudiandae, alias neque nisi voluptatibus.
 						</p>
 						<p>
-							Read full article <a href="javascript:void(0)">here</a>.
+							Read full article <a href="javascript:void(0)" target="_blank">here</a>.
 						</p>
 					</article>
 				
@@ -128,12 +133,12 @@
 						<h3 class="article-title">
 							Article 2
 						</h3>
-						<img src="http://placehold.it/600x200" alt="Article Image" class="article-img img-responsive">
+						<img src="http://placehold.it/600x200?text=Article+2" alt="Article Image" class="article-img img-responsive">
 						<p class="article-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam impedit aliquam est beatae molestias quas, ex odit dolores illum laborum placeat facilis doloribus vel, eligendi magnam id voluptate, aperiam ad obcaecati dolorum. Architecto totam iusto esse magni quidem voluptates.
 						</p>
 						<p>
-							Read full article <a href="javascript:void(0)">here</a>.
+							Read full article <a href="javascript:void(0)" target="_blank">here</a>.
 						</p>
 					</article>
 

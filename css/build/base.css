@@ -16,6 +16,10 @@
  * GLOBAL CLASSES
  */
 
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
 /* title for sections and secondary pages */
 .section-title {
 	font-family: 'Raleway', sans-serif;

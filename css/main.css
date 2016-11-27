@@ -16,6 +16,10 @@
  * GLOBAL CLASSES
  */
 
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
 /* title for sections and secondary pages */
 .section-title {
 	font-family: 'Raleway', sans-serif;
@@ -38,6 +42,7 @@
 	width: 80%;
 	height: 1px;
 }
+
 /**
  * Projects section styles
  */
@@ -59,10 +64,10 @@
 }
 
 .article-text {
-	font-family: 'Titillium Web', sans-serif;
 	font-size: 1em;
 	text-align: justify;
 }
+
 /**
  * Banner (full-width image)
  */
@@ -88,13 +93,35 @@
 	right: 0;
 }
 
-@media all and (max-width: 768px){
+@media all and (max-width: 768px) {
 
 	.banner-caption {
 		font-size: 1.6em;
+		bottom: 0;
+		width: 100%;
 	}
 
 }
+
+@media all and (max-width: 550px) {
+
+	.banner-caption {
+		background-color: #fff;
+		border-bottom: 1px solid #333;
+		position: static;
+		text-align: center;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+
+	.banner-caption {
+		font-size: 1.2em;
+	}
+
+}
+
 /**
  * Footer styles
  */
@@ -103,8 +130,7 @@
 	background-color: #333;
 	color: #fff;
 	margin-top: 20px;
-	padding-top: 10px;
-	padding-bottom: 50px;
+	padding: 10px 0 50px;
 }
 
 .down-social {
@@ -113,13 +139,12 @@
 
 .down-social-item {
 	color: #fff;
+	font: 1.5em/30px normal;
 	display: inline-block;
-	font-size: 1.5em;
-	line-height: 30px;
 }
 
 /* margin between social items, do not apply on the first icon */
-.down-social-item:not(:first-of-type){
+.down-social-item:not(:first-of-type) {
 	margin-left: 10px;
 }
 
@@ -127,6 +152,7 @@
 .down-social-item a:hover {
 	text-decoration: none;
 }
+
 /**
  * Projects section styles
  */
@@ -152,27 +178,21 @@
 }
 
 .project-text {
-	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.2em;
 }
+
 /**
  * Header styles
  */
 
 .top {
-	background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 60%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 80%);
 	color: #fff;
-	font-family: 'Titillium Web', sans-serif;
 	margin-bottom: 20px;
-	opacity: 0.8;
 	position: absolute;
 	top: 0;
 	width: 100%;
 	transition: opacity .2s;
-}
-
-.top:hover {
-	opacity: 1;
 }
 
 .top .row {
